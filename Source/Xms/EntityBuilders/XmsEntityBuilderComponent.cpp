@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2025 Xist.GG LLC
+// Copyright (c) 2025 Xist.GG LLC
 
 #include "XmsEntityBuilderComponent.h"
 
@@ -23,7 +23,7 @@ UXmsEntityBuilderComponent::UXmsEntityBuilderComponent(const FObjectInitializer&
 		.MaxAge = 4.,
 	};
 	bAutoBuildEnabled = true;
-	AutoBuildIntervalSeconds = 0.2;
+	AutoBuildIntervalSeconds = 0.2f;
 }
 
 void UXmsEntityBuilderComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)

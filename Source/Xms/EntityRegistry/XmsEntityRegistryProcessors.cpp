@@ -3,6 +3,7 @@
 #include "EntityRegistry/XmsEntityRegistryProcessors.h"
 
 #include "MassExecutionContext.h"
+#include "MassEntityTypes.h"
 #include "XmsEntityMetaData.h"
 #include "XmsEntityRegistry.h"
 #include "XmsLog.h"
@@ -14,7 +15,7 @@
 UXmsEntityCreated::UXmsEntityCreated()
 	: Query(*this)
 {
-	ObservedType = FXmsT_Registry::StaticStruct();
+	ObservedTypes.Add(FXmsT_Registry::StaticStruct());
 	ObservedOperations = EMassObservedOperationFlags::CreateEntity;
 	ExecutionFlags = static_cast<int32>(EProcessorExecutionFlags::AllNetModes);
 }
@@ -69,7 +70,7 @@ void UXmsEntityCreated::Execute(FMassEntityManager& EntityManager, FMassExecutio
 UXmsEntityDestroyed::UXmsEntityDestroyed()
 	: Query(*this)
 {
-	ObservedType = FXmsT_Registry::StaticStruct();
+	ObservedTypes.Add(FXmsT_Registry::StaticStruct());
 	ObservedOperations = EMassObservedOperationFlags::DestroyEntity;
 	ExecutionFlags = static_cast<int32>(EProcessorExecutionFlags::AllNetModes);
 }
