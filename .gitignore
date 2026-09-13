@@ -2,6 +2,9 @@
 .vs/
 .vsconfig
 
+# Visual Studio Solution Files
+*.slnx
+
 # JetBrains user specific files
 .idea/
 *.DotSettings.user
