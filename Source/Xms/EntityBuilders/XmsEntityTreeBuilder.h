@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "MassEntityHandle.h"
+#include "Mass/EntityHandle.h"
 #include "Attributes/Lifespan/XmsLifespan.h"
 #include "EntityRegistry/XmsEntityMetaData.h"
 #include "GameFramework/Volume.h"

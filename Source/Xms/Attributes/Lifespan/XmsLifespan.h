@@ -2,7 +2,7 @@
 
 #pragma once
 
-#include "MassEntityElementTypes.h"
+#include "Mass/EntityElementTypes.h"
 
 #include "XmsLifespan.generated.h"
 

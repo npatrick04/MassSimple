@@ -1,8 +1,8 @@
-﻿// Copyright (c) 2025 Xist.GG LLC
+// Copyright (c) 2025 Xist.GG LLC
 
 #pragma once
 
-#include "MassEntityHandle.h"
+#include "Mass/EntityHandle.h"
 #include "Attributes/Lifespan/XmsLifespan.h"
 #include "EntityRegistry/XmsEntityMetaData.h"
 #include "Components/ActorComponent.h"

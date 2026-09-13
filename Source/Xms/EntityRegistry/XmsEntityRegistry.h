@@ -1,8 +1,8 @@
-﻿// Copyright (c) 2025 Xist.GG
+// Copyright (c) 2025 Xist.GG
 
 #pragma once
 
-#include "MassEntityHandle.h"
+#include "Mass/EntityHandle.h"
 #include "MassSubsystemBase.h"
 #include "XmsEntityMetaData.h"
 #include "Containers/Queue.h"

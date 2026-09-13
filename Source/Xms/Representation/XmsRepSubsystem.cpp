@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2025 Xist.GG LLC
+// Copyright (c) 2025 Xist.GG LLC
 
 #include "XmsRepSubsystem.h"
 
@@ -263,7 +263,7 @@ void UXmsRepSubsystem::RedrawRenderTarget()
 		default: break;
 		}
 
-		EntityColor.A = 0.6;
+		EntityColor.A = 0.6f;
 
 		const FVector2D EntitySize (SizeScale);
 		const FVector2D EntityHalfSize (EntitySize / 2.);

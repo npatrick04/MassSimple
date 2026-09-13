@@ -1,8 +1,8 @@
-﻿// Copyright (c) 2025 Xist.GG
+// Copyright (c) 2025 Xist.GG
 
 #pragma once
 
-#include "MassEntityElementTypes.h"
+#include "Mass/EntityElementTypes.h"
 
 #include "XmsEntityMetaData.generated.h"
 
